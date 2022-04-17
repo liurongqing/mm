@@ -4,7 +4,7 @@
   "description": "mini manage",
   "main": "index.js",
   "scripts": {
-    "start": ""
+    "start": "node build/development.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,14 @@
   "bugs": {
     "url": "https://github.com/liurongqing/mm/issues"
   },
-  "homepage": "https://github.com/liurongqing/mm#readme"
+  "homepage": "https://github.com/liurongqing/mm#readme",
+  "devDependencies": {
+    "@types/react": "^18.0.5",
+    "@types/react-dom": "^18.0.1",
+    "esbuild": "^0.14.36"
+  },
+  "dependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  }
 }
