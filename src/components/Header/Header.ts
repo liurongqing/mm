@@ -1,4 +1,8 @@
-function Header({ title }) {
-  /* Header stuff here */
+interface IHeader {
+  title: string
 }
-export default Header;
+function Header({ title }: IHeader) {
+  /* Header stuff here */
+  console.log('title', title)
+}
+export default Header
